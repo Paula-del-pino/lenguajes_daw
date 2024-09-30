@@ -1,0 +1,19 @@
+<!--Me faltaba poner el "=" detrás de version y me daba error-->
+<!-- Lo añado así: "version="-->
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<agenda>
+<entrada>
+    <!--Faltaba la etiqueta de cierre </nombre-completo>-->
+    <!--Se añade detrás del nombre-->
+    <nombre-completo>Marta Elena Tablada</nombre-completo>
+    <direccion>
+    <calle>Avd de los Castros</calle>
+    <ciudad>Santander</ciudad>
+    <codigo-postal>39005</codigo-postal>
+    <region>Cantabria</region>
+    <pais>España</pais>
+    </direccion>
+    <tel preferente="true"> 942201363</tel>
+    <correo-e href="tabladam@unican.es"/>
+</entrada>
+</agenda>

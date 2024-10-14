@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda telefonica>
+	<cliente> 
+		<nombre>Paula</nombre>
+		<apellido>Del Pino</apellido>
+		<direccion>
+			<domicilio>
+				<via_tipo="calle">Calle San Paulino</via>
+				<num>47</num>
+				<piso>1</piso>
+				<puerta>A</puerta>
+				<escalera>izquierda</escalera>
+				<cod_post>11160</cod_post>
+				<pais>España</pais>
+			</domicilio>
+		</direccion>
+		<telefono_tipo="movil">664498207</telefono>
+		<telefono_tipo="trabajo">875911028</telefono>
+		<telefono_tipo="casa">667534668</telefono>
+	</cliente>
+</agenda telefonica>

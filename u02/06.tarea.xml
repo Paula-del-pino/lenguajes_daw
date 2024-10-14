@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grado_daw>
+    <modulo>
+        <nombre>Lenguajes de Marcas y Sistemas de Gestión de Información</nombre>
+        <duracion>3 horas por semana</duracion>
+        </obligatorio>
+        <fecha_ini>
+            <dia>16</dia>
+            <mes>Septiembre</mes>
+            <anio>2024</anio>
+        </fecha_ini>
+        <fecha_fin>
+            <dia>20</dia>
+            <mes>Junio</mes>
+            <anio>2025</anio>
+        </fecha_fin>
+        <alumnos>
+            <alumno>
+                <nombre_completo>Ana Fernández Gutiérrez</nombre_completo>
+                <nif>16965696L</nif>
+                <direccion>
+                    <calle>El Percebe</calle>
+                    <num>13</num>
+                    <ciudad>Chipiona</ciudad>
+                    <codigo-postal>11550</codigo-postal>
+                 </direccion>
+                <tel preferente="true">789654321</tel>
+                <correo-e href="ana.fdezgtrrez@hotmail.com"/>
+                <ausencias>0</ausencias>
+                <calif>0</calif>
+            </alumno>
+            <alumno>
+                <nombre_completo>Pepe Grillo Márquez</nombre_completo>
+                <nif>98765432H</nif>
+                <direccion>
+                    <Avda>El Pez</Avda>
+                    <num>5</num>
+                    <ciudad>Rota</ciudad>
+                    <codigo-postal>11520</codigo-postal>
+                 </direccion>
+                <tel preferente="true">656566555</tel>
+                <correo-e href="yhyh@yahoo.com"/>
+                <ausencias>0</ausencias>
+                <calif>Aprobado</calif>
+            </alumno>
+        </alumnos>
+    </modulo>
+</grado_daw>

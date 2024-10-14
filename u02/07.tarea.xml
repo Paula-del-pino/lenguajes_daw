@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servicio_web> 
+    <programa>Apache</programa>
+    <fecha_crea>24-12-2007<fecha_crea>
+    <ult_act>11-10-2024</ult_act>
+    <hosting>
+        <compania>
+            <nombre>LethalCompany</nombre>
+            <precio_mes>19.99<precio_mes>
+        </compania>
+    </hosting>
+    <servidores_virtuales>
+        <servidor_virtual>
+            <server_cod="678-APUDC">
+            <dominio>www.server_virtual.com</dominio>
+            <directorio>/var/www/server_virtual</directorio>
+            <modoseg>true</modoseg>
+            <!--Este servidor no tiene incidencias-->
+        <servidor_virtual>
+            <server_cod="218-MDROC">
+            <dominio>www.server_virtu2.com</dominio>
+            <directorio>/var/www/server_virtu2</directorio>
+            <modoseg>false</modoseg>
+            <incidencias>
+                <incidencia>
+                    <descrip>Error 404 not found</descrip>
+                    <solucion>Se reinició la página web</solucion>
+                </incidencia>
+            </incidencias>
+        </servidor_virtual>
+    </servidores_virtuales>
+</servicio_web>

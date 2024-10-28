@@ -1,1 +1,7 @@
-<?xml
+<?xml version="1.0" encoding="UT-8" standalone="no" ?>
+<!DOCTYPE adress >
+<adress>
+    <name>Juan Tomas</name>
+    <company>Microsoft</company>
+    <phone>900123123</phone>
+</adress>

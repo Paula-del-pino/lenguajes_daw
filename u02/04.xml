@@ -3,15 +3,13 @@
     <factura num="999">
         <cliente num= "879">
             <nombre>José Rodriguéz</nombre>
-            <telefono num="910101010">
+            <telefono num="910101010"/>
         </cliente>
       <datos_factura>
         <!--Lista de artículos-->
         <articulo ref="A101"/>
-            <descripcion>Placa Base QDI<descripcion>
+            <descripcion>Placa Base QDI</descripcion>
             <cantidad>1</cantidad>
             <precio>230</precio>
     </datos_factura>
 </facturas>
-
-

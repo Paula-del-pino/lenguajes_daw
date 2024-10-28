@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE mesa [ 
+<!ELEMENT mesa ANY> 
+<!ELEMENT material (#PCDATA)> 
+<!ELEMENT color (#PCDATA)> 
+]> 
+<mesa>
+  <material>madera</material>
+    <color>marrón</color>
+</mesa>
+<!--Hay mucho texto y poco orden debe concuerdar con el DTD-->

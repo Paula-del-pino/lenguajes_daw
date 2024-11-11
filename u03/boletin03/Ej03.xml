@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <!DOCTYPE caballo [ 
-<!ELEMENT caballo (nombre, raza, edad)> 
+<!ELEMENT caballo (nombre | raza | edad)*> <!--Cuando no tiene coma significa que aparecen los 3 pero sin un orden y como no se sab a que ordn van se pone el "*"-->
 <!ELEMENT nombre (#PCDATA)> 
 <!ELEMENT raza (#PCDATA)> 
 <!ELEMENT edad EMPTY> 

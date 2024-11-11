@@ -1,0 +1,40 @@
+<!ELEMENT universidad (alumnos, profesores, asignaturas)>
+<!--Alumnos-->
+<!ELEMENT alumnos (alumno*)>
+<!ELEMENT alumno (datos_personales, matriculaciones)>
+<!-- Profesores -->
+<!ELEMENT profesores (profesor*)>
+<!ELEMENT profesor (datos_personales, despacho)>
+<!-- Asignatura -->
+<!ELEMENT asignaturas (asignatura*)>
+<!ELEMENT asignatura (codigo, creditos, carrera, curso, tipo)>
+<!-- Datos personales alumnos y profesores -->
+<!ELEMENT datos_personales (dni, pasaporte, nombre, apellido1, apellido2?, fecha_nacimiento, contacto?)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT pasaporte (numero, pais)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido1 (#PCDATA)>
+<!ELEMENT apellido2 (#PCDATA)>
+<!ELEMENT fecha_nacimiento (#PCDATA)>
+<!--Elemento contacto -->
+<!ELEMENT contacto (direccion?, telefono*, correo*)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT correo (#PCDATA)>
+<!-- Despacho profesores -->
+<!ELEMENT despacho (#PCDATA)>
+<!-- Matrícula -->
+<!ELEMENT matriculaciones (matricula*)>
+<!ELEMENT matricula (codigo_asignatura, nota)>
+<!ELEMENT codigo_asignatura (#PCDATA)>
+<!ELEMENT nota (#PCDATA)>
+   <!-- Atributos para limitar la nota -->
+<!ATTLIST nota valor (NP | SS | AP | NT | SB | MH) #REQUIRED>
+ <!ELEMENT codigo (#PCDATA)>
+<!ELEMENT creditos (#PCDATA)>
+<!ELEMENT carrera (#PCDATA)>
+<!ELEMENT curso (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ATTLIST tipo valor (optativa | obligatoria) #REQUIRED>

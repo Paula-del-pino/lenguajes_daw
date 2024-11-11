@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE socios [ 
+   <!ELEMENT socios (socio)*> 
+   <!ELEMENT socio (numero, clave+, nombre, edad)> 
+   <!ELEMENT clave (#PCDATA)> 
+   <!ELEMENT edad (#PCDATA)> 
+   <!ELEMENT nombre (#PCDATA)> 
+   <!ELEMENT numero (#PCDATA)> 
+]> 
+
+<socios> 
+   <socio> 
+      <numero>1</numero> 
+      <clave>hY75Du</clave> 
+      <nombre>Ana</nombre> 
+      <edad>21</edad> 
+   </socio> 
+   <socio> 
+      <numero>598</numero> 
+      <clave>gH74Dk</clave> 
+      <nombre>Iker</nombre> 
+      <edad>19</edad> 
+   </socio> 
+</socios>
